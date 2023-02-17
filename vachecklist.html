@@ -1,0 +1,1185 @@
+<html>
+    <head>
+    <title>VA cash out</title>
+    <h2>VA cash-out</h2>
+    </head>
+    <b><font siz=4>Part I</font><br>
+    <font size=2>Loan Status</font></b>
+    <table width=80%>
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Search for emails in the inbox and verify that the email you're working in matches the loan in Encompass <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test1" value="Passed" onclick="OnlyOneSelectedTOne(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test1" id="Test22" value="Failed" onclick="OnlyOneSelectedTOne(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test1" id="Test2" value="NotApplicable" onclick="OnlyOneSelectedTOne(this)"></td>
+        </tr>
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Make sure income received is clicked. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Incomereceived" value="Passed" onclick="TestIncomereceived(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Incomereceived" value="Failed" onclick="TestIncomereceived(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Incomereceived" value="NotApplicable" onclick="TestIncomereceived(this)"></td>
+        </tr>
+
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Remove old items from needs list. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test2" value="Passed" onclick="TestTwoSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test2" value="Failed" onclick="TestTwoSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test2" id="Test2" value="NotApplicable" onclick="TestTwoSelected(this)"></td>
+        </tr>
+
+    </table>
+
+    <font size=2>Borrower Summary</font></b> 
+    <table width=80%>
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Make sure the name and address matches in contact info.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test3" value="Passed" onclick="TestThreeSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test3" value="Failed" onclick="TestThreeSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test3" value="NotApplicable" onclick="TestThreeSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">If a community property state verify if spouse's credit is on the file.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="marriedBorrowers" value="Passed" onclick="MarriedBorrowers(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="marriedBorrowers" value="Failed" onclick="MarriedBorrowers(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="marriedBorrowers" value="NotApplicable" onclick="MarriedBorrowers(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Make sure the borrower has been at address more than two years or has two years living history. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test4" value="Passed" onclick="TestFourSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test4" value="Failed" onclick="TestFourSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test4" value="NotApplicable" onclick="TestFourSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">View credit scores to make sure they are not too low. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test5" value="Passed" onclick="TestFiveSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test5" value="Failed" onclick="TestFiveSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test5" value="NotApplicable" onclick="TestFiveSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">View credit report to make sure there aren't any downgrades or autodeclines. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test6" value="Passed" onclick="TestSixSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test6" value="Failed" onclick="TestSixSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test6" value="NotApplicable" onclick="TestSixSelected(this)"></td>
+        </tr>     
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">At the bottom make sure the loan you're working on is properly checked (i.e. VA cash-out) <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="VAcashout" value="Passed" onclick="VAcashout(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="VAcashout" value="Failed" onclick="VAcashout(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="VAcashout" value="NotApplicable" onclick="VAcashout(this)"></td>
+        </tr>
+     
+
+    </table>    
+
+    <font size=2>URLA I:</font></b>
+
+    <table width=80%>
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Borrower or borrowers' adress info filled in correctly.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test7" value="Passed" onclick="TestSevenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test7" value="Failed" onclick="TestSevenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test7" value="NotApplicable" onclick="TestSevenSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">If there are dependents, make sure their age is filled in.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="TestAge" value="Passed" onclick="TestAge(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="TestAge" value="Failed" onclick="TestAge(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="TestAge" value="NotApplicable" onclick="TestAge(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Military service is properly checked.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test8" value="Passed" onclick="TestEightSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test8" value="Failed" onclick="TestEightSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test8" value="NotApplicable" onclick="TestEightSelected(this)"></td>
+        </tr>
+ 
+    </table>
+
+    <font size=2>URLA II:</font></b>
+
+    <table width=80%>
+        <tr bgcolor="black">
+            <td width=40%><font color="red">If employed make sure Employer name, Position Title, and Start Date are filled out..<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test9" value="Passed" onclick="TestNineSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test9" value="Failed" onclick="TestNineSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test9" value="NotApplicable" onclick="TestNineSelected(this)"></td>
+        </tr> 
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Employer address info filled out.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test10" value="Passed" onclick="TestTenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test10" value="Failed" onclick="TestTenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test10" value="NotApplicable" onclick="TestTenSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Make sure they have been employed at least two years.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test11" value="Passed" onclick="TestElevenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test11" value="Failed" onclick="TestElevenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test11" value="NotApplicable" onclick="TestElevenSelected(this)"></td>
+        </tr>  
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">2020 and 2021 W2s are in the file.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test13" value="Passed" onclick="TestThirteenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test13" value="Failed" onclick="TestThirteenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test13" value="NotApplicable" onclick="TestThirteenSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">One month's worth of paystubs are in the file.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test14" value="Passed" onclick="TestFourteenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test14" value="Failed" onclick="TestFourteenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test14" value="NotApplicable" onclick="TestFourteenSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Use blueprint to get monthly amount.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test15" value="Passed" onclick="TestFifteenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test15" value="Failed" onclick="TestFifteenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test15" value="NotApplicable" onclick="TestFifteenSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Makre sure showing an increase in income for 2021 compared to 2020.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test16" value="Passed" onclick="TestSixteenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test16" value="Failed" onclick="TestSixteenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test16" value="NotApplicable" onclick="TestSixteenSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Blueprint threshhold not below 5%.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test17" value="Passed" onclick="TestSeventeenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test17" value="Failed" onclick="TestSeventeenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test17" value="NotApplicable" onclick="TestSeventeenSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Check other sources of income for retirement, pension, Social security, etc. income.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test18" value="Passed" onclick="TestEighteenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test18" value="Failed" onclick="TestEighteenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test18" value="NotApplicable" onclick="TestEighteenSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Make sure Other sources of income or retirement have proper documents, tax forms or awards letters.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test19" value="Passed" onclick="TestNineteenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test19" value="Failed" onclick="TestNineteenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test19" value="NotApplicable" onclick="TestNineteenSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Verify that the amount, name, address on the awards letters matches whats in Encompass.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test20" value="Passed" onclick="TestTwentySelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test20" value="Failed" onclick="TestTwentySelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test20" value="NotApplicable" onclick="TestTwentySelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">If there 3 income sources in 1.e click Show all other incomes to check if there is more income filled in.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test21" value="Passed" onclick="TestTwentyoneSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test21" value="Failed" onclick="TestTwentyoneSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test21" value="NotApplicable" onclick="TestTwentyoneSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Make sure the appropriate buckets are added to file.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test22" value="Passed" onclick="TestTwentytwoSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test22" value="Failed" onclick="TestTwentytwoSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test22" value="NotApplicable" onclick="TestTwentytwoSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Make sure you sort the file out with appropriate names. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test23" value="Passed" onclick="TestTwentythreeSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test23" value="Failed" onclick="TestTwentythreeSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test23" value="NotApplicable" onclick="TestTwentythreeSelected(this)"></td>
+        </tr>
+
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Click income reviewed.  <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test24" value="Passed" onclick="TestTwentyfourSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test24" value="Failed" onclick="TestTwentyfourSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test24" value="NotApplicable" onclick="TestTwentyfourSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Send out an email if there are failed conditions, or to check to pay off debts or proceed to Part II.  <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF> </font></strong> </td>
+        
+            <td width=20%><strong><font color=#00FFFF> </font></strong> </td> 
+
+        </tr>                      
+
+    </table>
+
+    <br>
+    <button id="button1">Submit</button>
+
+    <script language="javascript">
+
+    function clearing(id) {
+        var el = document.getElementById(id);
+
+        if (el) {
+            el.innerHTML = '';
+        }
+    }
+
+    button1.onclick = () => {
+    var checkboxes = document.querySelectorAll('[type="checkbox"]');
+    var passed = 0;
+    var failed1 = 0;
+    var notChecked1 = 0;
+    var notApplicable1 = 0;
+    checkboxes.forEach((item) => {
+        if (item.checked == true && item.value == "Passed")
+        { 
+            passed++;
+        } else if(item.checked == true && item.value == "Failed") {
+          failed1++;
+        } else if(item.checked == true && item.value == "NotApplicable") {
+          notApplicable1++;
+        } else {
+        notChecked1++
+        }
+        
+
+        })
+    clear('passed');
+    clear('failed');
+    clear('notapplicable');
+
+    document.getElementById("passed").textContent += passed;
+    document.getElementById("failed").textContent += failed1;
+    document.getElementById("notapplicable").textContent += notApplicable1;
+    };
+    </script>
+
+    <br>
+
+    <font color="Green">Passed:</font> <font color="Green" id="passed"></font><br>
+    <font color="Red">Failed: <font color="red" id="failed"></font><br>
+    <font color="Pink">Not Applicable: <font color="Pink" id="notapplicable"></font><br><br>
+
+    <b><font color="black" siz=4>Part 2</font><br></b>
+    <font size=2 color="black"><br>URLA part3</b></font></b>
+
+    <table width=80%>
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Any other mortgages or timeshares on credit report that are in forebearance or need to be checked? <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test25" value="Passed" onclick="TestTwentyfiveSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test25" value="Failed" onclick="TestTwentyfiveSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test1" value="NotApplicable" onclick="TestTwentyfiveSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Borrower is not a part of a debt relief program <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test26" value="Passed" onclick="TestTwentysixSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test26" value="Failed" onclick="TestTwentysixSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test26" value="NotApplicable" onclick="TestTwentysixSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Borrower has no lates that are an auto downgrade <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test27" value="Passed" onclick="TestTwentysevenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test27" value="Failed" onclick="TestTwentysevenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test27" value="NotApplicable" onclick="TestTwentysevenSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Take screenshot of the VOL if multiple things are being paid off. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test28" value="Passed" onclick="TestTwentyeightSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test28" value="Failed" onclick="TestTwentyeightSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test28" value="NotApplicable" onclick="TestTwentyeightSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Pull hard credit.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test29" value="Passed" onclick="TestTwentynineSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test29" value="Failed" onclick="TestTwentynineSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test29" value="NotApplicable" onclick="TestTwentynineSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Import liabilities.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test30" value="Passed" onclick="TestThirtySelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test30" value="Failed" onclick="TestThirtySelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test30" value="NotApplicable" onclick="TestThirtySelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Make sure mortgage is paid off.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test31" value="Passed" onclick="TestThirtyoneSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test31" value="Failed" onclick="TestThirtyoneSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test31" value="NotApplicable" onclick="TestThirtyoneSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Pay off the appropriate debts that have been indicated.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test32" value="Passed" onclick="TestThirtytwoSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test32" value="Failed" onclick="TestThirtytwoSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test32" value="NotApplicable" onclick="TestThirtytwoSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Link Liabilities<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test33" value="Passed" onclick="TestThirtythreeSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test33" value="Failed" onclick="TestThirtythreeSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test33" value="NotApplicable" onclick="TestThirtythreeSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Link additional mortgages or add additional property.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test34" value="Passed" onclick="TestThirtyfourSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test34" value="Failed" onclick="TestThirtyfourSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test34" value="NotApplicable" onclick="TestThirtyfourSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Move credit report to appropriate bucket.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test35" value="Passed" onclick="TestThirtyfiveSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test35" value="Failed" onclick="TestThirtyfiveSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test35" value="NotApplicable" onclick="TestThirtyfiveSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Make sure debts with an equal amount have the .05 rule applied.<br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test36" value="Passed" onclick="TestThirtysixSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test36" value="Failed" onclick="TestThirtysixSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test36" value="NotApplicable" onclick="TestThirtysixSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Exclude medical and charge off accounts. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test37" value="Passed" onclick="TestThirtysevenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test37" value="Failed" onclick="TestThirtysevenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test37" value="NotApplicable" onclick="TestThirtysevenSelected(this)"></td>
+        </tr>
+
+    </table>
+
+    <font size=2 color="black"><b><br>Loan Management</b></font>
+    <table width=80%>
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Verify COE is in file. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test38" value="Passed" onclick="TestThirtyeightSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test38" value="Failed" onclick="TestThirtyeightSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test38" value="NotApplicable" onclick="TestThirtyeightSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Verify COE name, address, laast 4 of social are the same in encompass and on the COE. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test39" value="Passed" onclick="TestThirtynineSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test39" value="Failed" onclick="TestThirtynineSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test39" value="NotApplicable" onclick="TestThirtynineSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Enter the entitlement and code in the Basic information tab. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test40" value="Passed" onclick="TestFortySelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test40" value="Failed" onclick="TestFortySelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test40" value="NotApplicable" onclick="TestFortySelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">In Basic information tab verify if borrower's are married <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test41" value="Passed" onclick="TestFortyoneSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test41" value="Failed" onclick="TestFortyoneSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test41" value="NotApplicable" onclick="TestFortyoneSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Click on the Qualificaton tab and calculate the residual income by putting in dependents, country region and clicking Get residual income <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test42" value="Passed" onclick="TestFortytwoSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test42" value="Failed" onclick="TestFortytwoSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test42" value="NotApplicable" onclick="TestFortytwoSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">In the Cash-out refinance tab, verify that they are meeting one or more Net Tangible Benefits. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test43" value="Passed" onclick="TestFortythreeSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test43" value="Failed" onclick="TestFortythreeSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test43" value="NotApplicable" onclick="TestFortythreeSelected(this)"></td>
+        </tr>
+
+    </table>
+
+    <font size=2 color="black"><br>Loan Analysis</b></font></b>
+    <table width=80%>
+        <tr bgcolor="black">
+            <td width=40%><font color="red">In loan analysis calculate the Maintenance. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test44" value="Passed" onclick="TestFortyfourSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test44" value="Failed" onclick="TestFortyfourSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test44" value="NotApplicable" onclick="TestFortyfourSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Make sure the VOL matches what's in the VOL on part III by checking loans not paid off. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test45" value="Passed" onclick="TestFortyfiveSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test45" value="Failed" onclick="TestFortyfiveSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test45" value="NotApplicable" onclick="TestFortyfiveSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Estimate their monthly taxes. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test46" value="Passed" onclick="TestFortysixSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test46" value="Failed" onclick="TestFortysixSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test46" value="NotApplicable" onclick="TestFortysixSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Verify that they are 20% above thresh-hold. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test47" value="Passed" onclick="TestFortysevenSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test47" value="Failed" onclick="TestFortysevenSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test47" value="NotApplicable" onclick="TestFortysevenSelected(this)"></td>
+        </tr>
+    
+
+    </table>
+
+    <font size=2 color="black"><br>Run AUS</b></font></b>
+    <table width=80%>
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Verify AUS passes or is refer. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test48" value="Passed" onclick="TestFortyeightSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test48" value="Failed" onclick="TestFortyeightSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test48" value="NotApplicable" onclick="TestFortyeightSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Verify if AUS says eligible or ineligible. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test49" value="Passed" onclick="TestFortynineSelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test49" value="Failed" onclick="TestFortynineSelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test49" value="NotApplicable" onclick="TestFortynineSelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Verify DTI matches what is in encompass. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF>Passed</font></strong><input type="checkbox" name="Test50" value="Passed" onclick="TestFiftySelected(this)"></td>
+        
+            <td width=20%><strong><font color=#00FFFF>Failed</font></strong><input type="checkbox" name="Test50" value="Failed" onclick="TestFiftySelected(this)"></td>
+     
+            <td width=20%><strong><font color=#00FFFF>Not Applicable</font></strong> <input type="checkbox" name="Test50" value="NotApplicable" onclick="TestFiftySelected(this)"></td>
+        </tr>
+
+        <tr bgcolor="black">
+            <td width=40%><font color="red">Send out an email, send to UW or move for approval. <br>. </td></font>
+
+	    <td width=20%><strong><font color=#00FFFF> </font></strong> </td>
+        
+            <td width=20%><strong><font color=#00FFFF> </font></strong> </td> 
+
+        </tr> 
+
+    </table>
+
+    <script language="javascript">
+    function OnlyOneSelectedTOne(id){
+      myCheckbox = document.getElementsByName("Test1");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+    }
+
+    function TestTwoSelected(id){
+      myCheckbox = document.getElementsByName("Test2");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+    }
+
+    function TestThreeSelected(id){
+      myCheckbox = document.getElementsByName("Test3");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+    }
+
+    function MarriedBorrowers(id){
+      myCheckbox = document.getElementsByName("marriedBorrowers");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+    }
+
+    function TestIncomereceived(id){
+      myCheckbox = document.getElementsByName("Incomereceived");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+    }
+
+    function TestFourSelected(id){
+      myCheckbox = document.getElementsByName("Test4");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+    }
+
+    function TestFiveSelected(id){
+      myCheckbox = document.getElementsByName("Test5");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestSixSelected(id){
+      myCheckbox = document.getElementsByName("Test6");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function VAcashout(id){
+      myCheckbox = document.getElementsByName("VAcashout");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestSevenSelected(id){
+      myCheckbox = document.getElementsByName("Test7");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestEightSelected(id){
+      myCheckbox = document.getElementsByName("Test8");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestAge(id){
+      myCheckbox = document.getElementsByName("TestAge");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestNineSelected(id){
+      myCheckbox = document.getElementsByName("Test9");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestTenSelected(id){
+      myCheckbox = document.getElementsByName("Test10");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestElevenSelected(id){
+      myCheckbox = document.getElementsByName("Test11");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestTwelveSelected(id){
+      myCheckbox = document.getElementsByName("Test12");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestThirteenSelected(id){
+      myCheckbox = document.getElementsByName("Test13");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestFourteenSelected(id){
+      myCheckbox = document.getElementsByName("Test14");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestFifteenSelected(id){
+      myCheckbox = document.getElementsByName("Test15");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestSixteenSelected(id){
+      myCheckbox = document.getElementsByName("Test16");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }                                
+
+    function TestSeventeenSelected(id){
+      myCheckbox = document.getElementsByName("Test17");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestEighteenSelected(id){
+      myCheckbox = document.getElementsByName("Test18");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestNineteenSelected(id){
+      myCheckbox = document.getElementsByName("Test19");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestTwentySelected(id){
+      myCheckbox = document.getElementsByName("Test20");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestTwentyoneSelected(id){
+      myCheckbox = document.getElementsByName("Test21");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestTwentytwoSelected(id){
+      myCheckbox = document.getElementsByName("Test22");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }  
+
+    function TestTwentythreeSelected(id){
+      myCheckbox = document.getElementsByName("Test23");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    } 
+    
+    function TestTwentyfourSelected(id){
+      myCheckbox = document.getElementsByName("Test24");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    } 
+
+    function TestTwentyfiveSelected(id){
+      myCheckbox = document.getElementsByName("Test25");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestTwentysixSelected(id){
+      myCheckbox = document.getElementsByName("Test26");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    } 
+
+    function TestTwentysevenSelected(id){
+      myCheckbox = document.getElementsByName("Test27");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestTwentyeightSelected(id){
+      myCheckbox = document.getElementsByName("Test28");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestTwentynineSelected(id){
+      myCheckbox = document.getElementsByName("Test29");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestThirtySelected(id){
+      myCheckbox = document.getElementsByName("Test30");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestThirtyoneSelected(id){
+      myCheckbox = document.getElementsByName("Test31");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    } 
+
+    function TestThirtytwoSelected(id){
+      myCheckbox = document.getElementsByName("Test32");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestThirtythreeSelected(id){
+      myCheckbox = document.getElementsByName("Test33");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestThirtyfourSelected(id){
+      myCheckbox = document.getElementsByName("Test34");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestThirtyfiveSelected(id){
+      myCheckbox = document.getElementsByName("Test35");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestThirtysixSelected(id){
+      myCheckbox = document.getElementsByName("Test36");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestThirtysevenSelected(id){
+      myCheckbox = document.getElementsByName("Test37");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }  
+
+    function TestThirtyeightSelected(id){
+      myCheckbox = document.getElementsByName("Test38");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestThirtynineSelected(id){
+      myCheckbox = document.getElementsByName("Test39");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestFortySelected(id){
+      myCheckbox = document.getElementsByName("Test40");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestFortyoneSelected(id){
+      myCheckbox = document.getElementsByName("Test41");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestFortytwoSelected(id){
+      myCheckbox = document.getElementsByName("Test42");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestFortythreeSelected(id){
+      myCheckbox = document.getElementsByName("Test43");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    } 
+
+    function TestFortyfourSelected(id){
+      myCheckbox = document.getElementsByName("Test44");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestFortyfiveSelected(id){
+      myCheckbox = document.getElementsByName("Test45");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestFortysixSelected(id){
+      myCheckbox = document.getElementsByName("Test46");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    } 
+
+    function TestFortysevenSelected(id){
+      myCheckbox = document.getElementsByName("Test47");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestFortyeightSelected(id){
+      myCheckbox = document.getElementsByName("Test48");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }
+
+    function TestFortynineSelected(id){
+      myCheckbox = document.getElementsByName("Test49");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }  
+
+    function TestFiftySelected(id){
+      myCheckbox = document.getElementsByName("Test50");
+      Array.prototype.forEach.call(myCheckbox,function(el){
+      	el.checked = false;
+      });
+      id.checked = true;
+
+    }                                                         
+
+    </script>
+
+
+    <br><br><br>
+
+    <br>
+    <button id="bt">Submit</button> <button id="clear">Clear</button>
+  
+    <script language="javascript">
+    var clist = document.getElementsByTagName("input");
+    clear.onclick = () => {
+    for (var i = 0; i < clist.length; ++i) { clist[i].checked = false; }
+    }
+    </script>
+
+
+    <script language="javascript">
+
+    function clear(id) {
+        var el = document.getElementById(id);
+
+        if (el) {
+            el.innerHTML = '';
+        }
+    }
+
+    bt.onclick = () => {
+    var checkboxes = document.querySelectorAll('[type="checkbox"]');
+    var number = 0;
+    var failed = 0;
+    var notChecked = 0;
+    var notApplicable = 0;
+    checkboxes.forEach((item) => {
+        if (item.checked == true && item.value == "Passed")
+        { 
+            number++;
+        } else if(item.checked == true && item.value == "Failed") {
+          failed++;
+        } else if(item.checked == true && item.value == "NotApplicable") {
+          notApplicable++;
+        } else {
+        notChecked++
+        }
+        
+
+        })
+    clear('p');
+    clear('f');
+    clear('t');
+
+    document.getElementById("p").textContent += number;
+    document.getElementById("f").textContent += failed;
+    document.getElementById("t").textContent += notApplicable;
+    };
+    </script>
+
+    <br>
+
+    <font color="Green">Passed:</font> <font color="Green" id="p"></font><br>
+    <font color="Red">Failed: <font color="red" id="f"></font><br>
+    <font color="Pink">Not Applicable: <font color="Pink" id="t"></font><br>
+
+</html>
